@@ -16,16 +16,13 @@ public class Arrays {
          System.out.println("Day \t\t\t  Departure Time \t\tNumber of Passenger");
          System.out.println();        
          for(int i=0;i<5;i++){
-                     System.out.print("Monday"+"\t\t\t\t"+DepartureTimes[i] +" \t\t\t\t" );       
-                     System.out.print(Passengersnumbers[i]);
+                     System.out.print("Monday"+"\t\t\t\t"+DepartureTimes[i] +" \t\t\t\t"+Passengersnumbers[i] );       
                      System.out.println(); }
                  for(int i=5;i<10;i++){
-                     System.out.print("Tuesday"+"\t\t\t\t"+DepartureTimes[i]+"\t\t\t\t");
-                     System.out.print(Passengersnumbers[i]);
+                     System.out.print("Tuesday"+"\t\t\t\t"+DepartureTimes[i]+"\t\t\t\t"+Passengersnumbers[i]);
                      System.out.println(); }
                  for(int i=10;i<15;i++){
-                     System.out.print("Wednesday"+"\t\t\t"+DepartureTimes[i]+"\t\t\t\t");
-                     System.out.print(Passengersnumbers[i]);
+                     System.out.print("Wednesday"+"\t\t\t"+DepartureTimes[i]+"\t\t\t\t"+Passengersnumbers[i]);
                      System.out.println(); }
  System.out.println("\n\n1.)The most popular train (day and time)\n" +"2.) Least popular train (day and time)\n" +"3.) Whether 6.04 train is more popular than the 9.04 train\n" +"4.) Whether 6.04 train on Monday is more popular than the 6.04 train on Tuesday\n" +"5.) Which two trains is more popular where day and time is specified by the user\n" +"6.) Display a list of all trains (day, time) where passenger numbers were below 50\n" +"7.) Average number of passengers travelling on the 12.04 train over the three days (Monday, Tuesday, Wednesday)\n" +"8.) Average number of passengers travelling where day and time is specified by the user\n"+"9.)Exit" );
          choice=t.nextInt();
@@ -153,10 +150,3 @@ public class Arrays {
         }while(choice!=9);
      }
 }
-
-                 
-
-
-
-    
-
